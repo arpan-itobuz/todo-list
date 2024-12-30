@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: auto;
+    padding: auto;
+}
+
+
+.ToDo-flex {
+    background-color: bisque;
+    width: 60%;
+    padding: 25px 7px 23px 11px;
+    margin-top: 29px;
+}
+
+.input-box {
+   width: 74%;
+}
+
+.task-list {
+    list-style-type: none;
+    text-align: center;
+    // background-color: aqua;
+    padding: 5px 20px 12px 15px;
+    margin: 10px 15px;
+
+    li {
+        background-color: aqua;
+        width: 40%;
+        margin-bottom: 15px;
+        padding: 10px 12px;
+        text-align: left;
+    }
+
+    li:hover {
+        background-color: aquamarine;
+    }
+}
+
+
